@@ -29,7 +29,7 @@ addToList(input){
       <div className="container">
       <input onChnage={(e)=>this.changeUserInput(e.target.value)} value={this.state.userInput} type="text" />
       <button onClick={()=> this.addTodo(this.state.userInput)}>Enter</button>
-      <form action={this.listArray.select()}>
+      <form>
         <select name="option">
         <option value="Completed">Completed</option>
         <option value="Active">Active</option>
