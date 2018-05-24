@@ -12,7 +12,7 @@ class Todo extends Component {
 
 changeUserInput(input){
   this.setState({
-  userInput: input
+  UserInput: input
   });
 }
 
@@ -22,6 +22,13 @@ addToList(input){
   this.setState({
     list: listArray
   })
+}
+
+selection (input){
+  if id(UserInput)= 1-count(UserInput)
+  {
+    this.setState({UserInput : active})
+  }
 }
 
   render() {
